@@ -1,0 +1,77 @@
+body {
+	background-image:linear-gradient(to right,rgba(200,100,100,1),rgba(100,100,200,1));
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.List
+{
+	list-style-type:upper-roman;
+	
+	font-family:papyrus;
+	text-align:left;
+	font-weight: bold;
+	font-style:bold;
+	font-size:20px;
+	padding:30px;
+	border-radius:10px;
+	border-style:outset;
+	border-width:1px;
+	margin:10px;
+	border-left-style:solid;
+	border-left-width:10px;
+	border-left-color:#00FF7F;
+
+}
+.List:hover
+{
+	background-color:CornSilk;
+}
+.submits
+{
+	border-radius:10px;
+	transition-duration:0.4s;
+	height:45px;
+	border-color:black;
+	background-color:transparent;
+	font-weight:bold;
+	content:'\00bb';
+	cursor:pointer;
+	
+}
+.submits:hover
+{
+	background-color:pink;
+}
+
+
+
+.Adder
+{
+	border-color:black;
+	border-radius:10px;
+	width:300px;
+	height:40px;
+	font-weight:bold;
+}
+.Form
+{
+	
+	margin:10px;
+}
+.Checker
+{
+	transform:scale(5);
+	position:absolute;
+	
+	right:100px;
+}
